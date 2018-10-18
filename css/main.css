@@ -1,10 +1,15 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 Georgia,serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  margin: 0;
+  margin: 3em;
 }
 
 header {
@@ -14,7 +19,10 @@ header {
 
 h1 {
   margin: 0;
+  display: block;
   text-align: center;
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
 }
 
 .nav {
@@ -22,10 +30,12 @@ h1 {
   padding: 0;
   list-style-type: none;
   text-align: center;
+  display: block;
 }
 
 .nav li {
   display: inline-block;
+  padding-bottom: .5em;
 }
 
 .nav a {
@@ -34,12 +44,45 @@ h1 {
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  color: #fff;
 }
 
 .nav a:hover {
   background-color: #cc1465;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+.nav .current {
+  background-color: #b20953;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+  padding-top: 1em;
+  text-align: left;
+}
+
+p {
+  text-align: center;
+  display: inline-block;
+  text-align: justify;
+}
+
+div {
+    background-color: #fff;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 30em;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1em;
 }
