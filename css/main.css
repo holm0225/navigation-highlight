@@ -1,0 +1,8 @@
+html {
+  box-sizing: border-box;
+  font: georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
