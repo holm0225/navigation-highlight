@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  margin: 3em;
+  margin: 1em 2em;
+  background-color: #fff;
 }
 
 header {
@@ -30,7 +31,6 @@ h1 {
   padding: 0;
   list-style-type: none;
   text-align: center;
-  display: block;
 }
 
 .nav li {
@@ -84,5 +84,6 @@ img {
 
 footer {
   text-align: center;
-  padding-top: 1em;
+  padding: 1em;
+  background-color: #ffe500;
 }
