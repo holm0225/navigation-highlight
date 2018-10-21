@@ -60,7 +60,6 @@ h1 {
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
-  padding-top: .5em;
   text-align: left;
   font-size: 1.875rem;
 }
@@ -90,7 +89,7 @@ img {
 
 footer {
   text-align: center;
-  padding: 1.5em;
+  padding: .75em;
   background-color: #ffe500;
-  font-size: .75rem;
+  font-size: 1.125rem;
 }
