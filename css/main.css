@@ -62,7 +62,7 @@ h2 {
   color: #b20953;
   text-align: left;
   font-size: 1.875rem;
-  margin: 1em auto;
+  margin: .8em auto;
 }
 
 p {
@@ -78,14 +78,15 @@ div {
   text-align: left;
   display: block;
   width: 100%;
-  margin: .9em;
+  margin: .8em;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 30em;
-  padding-right: 2em;
+  max-width: 35em;
+  margin-bottom: 1em;
+  padding-right: 1.5em;
 }
 
 footer {
