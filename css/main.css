@@ -35,18 +35,18 @@ h1 {
 
 .nav li {
   display: inline-block;
-  padding-bottom: .5em;
+  padding-bottom: .3em;
 }
 
 .nav a {
   display: inline-block;
-  padding: .5em .75em;
+  padding: .3em .5em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
   font-family: georgia, serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .nav a:hover {
@@ -62,14 +62,15 @@ h2 {
   color: #b20953;
   text-align: left;
   font-size: 1.875rem;
+  margin: 1em auto;
 }
 
 p {
   display: inline-block;
-  text-align: justify;
   color: #2f2d13;
-  padding-right: 3em;
   font: normal 100%/1.5 Georgia, serif;
+  padding-right: 2em;
+  margin: 0;
 }
 
 div {
@@ -77,19 +78,18 @@ div {
   text-align: left;
   display: block;
   width: 100%;
-  margin: 1em;
+  margin: .9em;
 }
 
 img {
   display: block;
   width: 100%;
   max-width: 30em;
-  padding-right: 2.5em;
+  padding-right: 2em;
 }
 
 footer {
   text-align: center;
-  padding: .75em;
+  padding: .7em;
   background-color: #ffe500;
-  font-size: 1.125rem;
 }
